@@ -1,0 +1,100 @@
+p {
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+}
+
+.break {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  height: 15px;
+}
+
+.input {
+  position: absolute;
+  top: 70px;
+  left: 20px;
+  resize: none;
+  overflow-wrap: break-word;
+  border: none;
+  outline: 0px solid transparent;
+  padding: 5px;
+  border-radius: 5px;
+  color: #1a0f0f;
+  background-color: rgba(8, 192, 192, 0.2);
+  font-size: 24px;
+  font-family: monospace;
+}
+
+.keyboard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  bottom: 50px;
+  left: 20px;
+  width: 800px;
+  height: 300px;
+  border-radius: 5px;
+  background-color: cornflowerblue;
+}
+
+.keyboard__keys {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 20px;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+}
+
+.keyboard__key {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  color: white;
+  font-size: 18px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+}
+
+.keyboard_double {
+  width: 80px;
+}
+
+.keyboard_wide {
+  width: 60px;
+}
+
+.keyboard_space {
+  width: 310px;
+}
+
+.keyboard_active {
+  background-color: rgba(8, 192, 192, 0.4);
+}
+/*# sourceMappingURL=style.css.map */
